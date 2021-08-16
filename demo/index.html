@@ -4,9 +4,7 @@
 		<title>PaintbrushJS Playground</title>
 		<meta charset="utf-8" />
 
-		<script type="text/javascript" src="script/common.js"></script>
 		<script type="text/javascript" src="script/paintbrush.js"></script>
-		<script type="text/javascript" src="script/playground.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="css/playground.css" />
 	</head>
@@ -25,7 +23,7 @@
 		<form action="#" method="post" id="interaction-form">
 		<div id="interaction">
 
-			<ul class="thumbnails">
+			<!-- <ul class="thumbnails">
 				<li class="thumb"><img src="images/500/lighthouse.jpg" width="50" height="33" alt=""></li>
 				<li class="thumb"><img src="images/500/staples.jpg" width="50" height="33" alt=""></li>
 				<li class="thumb current"><img src="images/500/bee.jpg" width="50" height="33" alt=""></li>
@@ -35,9 +33,10 @@
 				<li class="thumb"><img src="images/500/road.jpg" width="50" height="33" alt=""></li>
 				<li class="thumb"><img src="images/500/jordan.jpg" width="50" height="33" alt=""></li>
 				<li class="thumb"><img src="images/500/stones.jpg" width="50" height="33" alt=""></li>
-			</ul>
+			</ul> -->
+			<div><img id="original-image" width="500" height="330" alt=""></div>
 
-			<img id="filter-target" src="images/500/bee.jpg" width="500" height="333" alt="">
+			<img id="result-image" width="500" height="333" alt="">
 
 			<label class="selector">
 				Filter:
@@ -142,6 +141,7 @@
 
 		</div>		
 		</form>		
+		<script type="text/javascript" src="script/playground.js"></script>
 
 
 
